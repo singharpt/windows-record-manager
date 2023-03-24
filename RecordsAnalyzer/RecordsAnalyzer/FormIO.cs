@@ -40,13 +40,13 @@ namespace RecordAnalyzer
                 {
                     i++;
                     string[] value = line.Split(new char[] { '\t' });
-                    if (value.Length != 16) { return "\u25C9 Cannot analyze the file as it has invalid data. Please select a new file using the browse button."; }
+                    if (value.Length != 16) { readFile.Close(); return "\u25C9 Cannot analyze the file as it has invalid data. Please select a new file using the browse button."; }
                     string key = value[0].ToLower().Trim() + value[2].ToLower().Trim() + value[9].ToLower().Trim();
                     key = key.Replace(" ", "");
                     formDictObj.AddData(key, value);
                 }
-                if (i == 0) { return "\u25C9 Cannot analyze an empty file. Please select a different file."; }
                 readFile.Close();
+                if (i == 0) { return "\u25C9 Cannot analyze an empty file. Please select a different file."; }
                 return "true";
             }
             else
