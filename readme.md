@@ -20,8 +20,6 @@ Tech Stack: **👉** C#, Windows Forms, .NET Framework, Object Oriented Programm
 
 ## Notes
 
-Tech stack used: **👉 Front-End -> React, CSS, Material UI | Datbase & ORM -> Supabase**
-
 How to run the app **👉 Very Important**
 
 1. Go to this location (Data-Entry) : https://github.com/singharpt/windows-record-manager/blob/main/Records%20Manager/Records%20Manager/bin/Release/net6.0-windows/Data%20Entry%20Form.exe
