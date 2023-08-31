@@ -2,7 +2,7 @@
 
 Submitted by: **👉 Arpit Singh**
 
-About this web app: **👉 It is a simple data entry & analysis application created as part of course work at UTD **
+About this web app: **👉 It is a simple data entry & analysis application created as part of course work at UTD**
 
 Time spent: **👉 20** hours with beginner level experience in C# and .NET Framework
 
